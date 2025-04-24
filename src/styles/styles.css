@@ -19,7 +19,7 @@ body {
 }
 
 .titleText {
-  font-family: Baloo, regular;
+  font-family: Baloo, sans-serif;
   color: #6b5083;
   font-size: 1.5rem;
   font-weight: bold;
@@ -34,7 +34,7 @@ body {
 }
 
 .mainHeaderText {
-  font-family: Baloo, regular;
+  font-family: Baloo, sans-serif;
   color: #6b5083;
   font-size: 1.4rem;
   padding-bottom: 1rem;
@@ -44,7 +44,7 @@ body {
 }
 
 .subHeaderText {
-  font-family: Baloo, regular;
+  font-family: Baloo, sans-serif;
   color: #6b5083;
   padding-top: 0.5rem;
   padding-bottom: 0.25rem;
@@ -58,7 +58,7 @@ body {
 }
 
 .tableHeader {
-  font-family: Baloo, cursive;
+  font-family: Baloo, sans-serif;
   color: #6b5083 !important;
   font-size: 1.1rem;
   font-weight: bold;
@@ -67,7 +67,7 @@ body {
 }
 
 .tableContet {
-  font-family: Baloo, cursive;
+  font-family: Baloo, sans-serif;
   color: #351c1c !important;
   font-size: 0.9rem;
   background-color: rgba(0, 0, 0, 0) !important;
