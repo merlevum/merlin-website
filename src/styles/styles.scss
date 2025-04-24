@@ -1,0 +1,129 @@
+$cardBackground: #ffedd9;
+$primaryColor: #6b5083;
+$primaryTextColor: #351c1c;
+$buttonActiveColor: #f0c778;
+$cardBGColor: #ffedd9;
+$titleFont: Baloo, cursive;
+$primaryFont: Barlow, sans-serif;
+$secondaryFont: Inter, sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $primaryFont;
+}
+
+body {
+  background: #2f2d3a url("../images/background.jpg");
+}
+
+.showcaseCarousel {
+  max-height: 300px;
+}
+
+.cardBG {
+  border-radius: 20px;
+  background-color: $cardBGColor;
+}
+
+// HEADER
+.titleText {
+  font-family: $titleFont;
+  color: $primaryColor;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.titleContent {
+  font-family: $primaryFont;
+  color: $primaryTextColor;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+
+// BODY
+.mainHeaderText {
+  font-family: $titleFont;
+  color: $primaryColor;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.subHeaderText {
+  font-family: $titleFont;
+  color: $primaryColor;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.generalContent {
+  color: $primaryTextColor;
+  font-family: $secondaryFont;
+}
+
+// TABLE
+.tableHeader {
+  font-family: $titleFont;
+  color: $primaryColor !important;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  border-bottom: 2px solid !important;
+}
+
+.tableContet {
+  font-family: $titleFont;
+  color: $primaryTextColor !important;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-bottom: 0.5px solid !important;
+}
+
+// BULLET LIST
+.solidBullet {
+  // ☆ ★
+  list-style: none;
+  text-indent: -18px;
+
+  &::before {
+    content: "★ ";
+  }
+}
+
+.outlineBullet {
+  list-style: none;
+  text-indent: -18px;
+
+  &::before {
+    content: "☆ ";
+  }
+}
+
+// BUTTONS
+.buttonActive {
+  background-color: $buttonActiveColor !important;
+  font-size: 5rem;
+}
+
+.buttonPassive {
+  background-color: $primaryColor !important;
+
+  &:hover {
+    background-color: #9570ab !important;
+  }
+}
+
+// STAR BUTTONS
+.starIcon {
+  color: $primaryColor;
+}
+
+.starIconActive {
+  color: $buttonActiveColor;
+}
