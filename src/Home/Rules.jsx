@@ -36,7 +36,7 @@ const Rules = () => {
             <StarBulletList list={willDrawList} />
           </Col>
           <Col>
-            <div className="subHeaderText">I will now draw</div>
+            <div className="subHeaderText">I will not draw</div>
             <StarBulletList list={willNotDrawList} />
           </Col>
         </Row>
